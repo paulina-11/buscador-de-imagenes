@@ -1,0 +1,45 @@
+.navbar {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navbar input {
+    border: none;
+    border-radius: 10px;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.botones{
+    margin: 0 auto;
+}
+.botones button {
+    border: 1px solid #FFF;
+    cursor: pointer;
+    width: 120px;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #232323;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.navbar button:hover {
+    background-color: #332F32;
+}
+@media (min-width:768px){
+    .navbar{
+        flex-direction: row;
+    }
+    .navbar input{
+        width: 30%;
+    }
+    .botones{
+        margin: 0;
+    }
+}
